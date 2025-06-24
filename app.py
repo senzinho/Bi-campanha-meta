@@ -40,6 +40,16 @@ df_filtrado = df[
     df['Veiculação da campanha'].isin(status_veiculacao)
 ]
 
+# Botão para download dos dados filtrados
+st.subheader("Download dos Dados Filtrados")
+csv_bytes = df_filtrado.to_csv(index=False).encode('utf-8')
+st.download_button(
+    label="📥 Baixar CSV",
+    data=csv_bytes,
+    file_name="campanhas_nanovit_filtradas.csv",
+    mime="text/csv"
+)
+
 # ——— Gráficos ———
 
 # 1. Engajamento por campanha
