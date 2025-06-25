@@ -15,7 +15,7 @@ def carregar_dados(caminho):
     return df
 
 # Carrega o CSV
-df = carregar_dados("CA-01---NANOVIT-Campanhas-1-de-jun-de-2025-24-de-jun-de-2025.csv")
+df = carregar_dados("CA-01---NANOVIT-Campanhas-1-de-jun-de-2025-25-de-jun-de-2025.csv")
 
 # Exibe os dados originais
 st.header("Dados Originais")
