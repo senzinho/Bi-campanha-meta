@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # --- Defina aqui o caminho do seu CSV ---
-CAMINHO_CSV = "CA-01---NANOVIT-Campanhas-1-de-jun-de-2025-25-de-jun-de-2025.csv"
+CAMINHO_CSV = "CA-01---NANOVIT-Campanhas-1-de-jun-de-2025-26-de-jun-de-2025.csv"
 
 # Título do painel
 st.title("Painel de Campanhas Nanovit")
